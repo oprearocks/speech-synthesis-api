@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+}
+
+label,
+input,
+button {
+    font-size: 1em;
+    display: block;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+label {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #111;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+input,
+button,
+select {
+    width: 200px;
+    padding: 10px;
+    font-size: 1em;
+    margin: 20px;
+}
+
+button {
+    background-color: #FFDC00;
+    text-transform: uppercase;
+    color: #111;
+    border: none;
+    outline: none;
+} 

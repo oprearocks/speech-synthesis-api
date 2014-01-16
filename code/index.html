@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speech Synthesis API</title>
+    <link rel="stylesheet" href="css/style.css" media="all">
+</head>
+<body>
+<div class="main">
+    <label for="phrase">Some text, Precious:</label>
+    <input type="text" name="phrase" id="phrase" placeholder="Jibberish...">
+    <label for="speech-rate">Thy speech rate:</label>
+    <input type="range" min="1" max="10" step="1" value="1" name="speech-rate" list="rate" data-target-property="rate">
+    
+    <datalist id="rate" name="rate">
+        <option value="1">
+        <option value="2">
+        <option value="3">
+        <option value="4">
+        <option value="5">
+        <option value="6">
+        <option value="7">
+        <option value="8">
+        <option value="9">
+        <option value="10">
+    </datalist>
+    <label for="pitch-rate">Thy pitch:</label>
+    <input type="range" min="0" max="2" step="0.5" value="1" name="pitch-rate" list="pitch" data-target-property="pitch">
+    
+    <datalist id="pitch" name="pitch">
+        <option value="0">
+        <option value="0.5">
+        <option value="1">
+        <option value="1.5">
+        <option value="2">
+        <option value="3">
+        <option value="4">
+        <option value="5">
+        <option value="6">
+        <option value="7">
+        <option value="8">
+        <option value="9">
+        <option value="10">
+    </datalist>
+    <button>Speak it!</button>
+</div>
+<script src="js/speech.js"></script>
+</body>
+</html>
